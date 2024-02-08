@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Fraunces:opsz,wght@9..144,300&family=La+Belle+Aurore&family=Open+Sans:wght@300&family=Parisienne&family=Petit+Formal+Script&display=swap');
+
+
+
+:root {
+  /* TIPO DE LETRAS */
+  --font-body:Arial, Helvetica, sans-serif;
+  --font1:'Parisienne',cursive;
+  --font2:'Cormorant Garamond',sans-serif;
+  --font3:'Petit Formal Script', sans-serif;
+  --font4:'Open Sans', sans-serif;
+  --font5:'La Belle Aurore', sans-serif;
+  --font6:'Fraunces', sans-serif;
+  /* COLORES */
+  --principal:#6C4AB6;
+  --principal-oscuro:#2D3250;
+  --secundario:#EDE4FF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contenedor {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.titulo_linea{
+  height: 1px;
+  width: 25%;
+  display: inline-flex;
+  background-color:#6C4AB6;
+  margin-bottom: 10px;
+}
