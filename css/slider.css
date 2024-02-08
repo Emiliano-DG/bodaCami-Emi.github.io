@@ -69,3 +69,10 @@ border-radius: 5px;
   transition: .5s ease;
   user-select: none;
 }
+
+
+@media screen and (max-width: 534px){
+  .slider{
+   display: grid;
+  }
+}

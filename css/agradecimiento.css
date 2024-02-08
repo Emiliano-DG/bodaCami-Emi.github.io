@@ -12,3 +12,9 @@
   font-family:var(--font2);
   color:var(--secundario)
 }
+
+@media screen and (max-width: 534px){
+  .agradecimiento{
+    text-align: center;
+  }
+}
