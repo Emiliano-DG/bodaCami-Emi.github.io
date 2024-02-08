@@ -1,0 +1,86 @@
+.fiesta{
+  background-color: #faf7f3;
+}
+
+.contenedor_titulo{
+  font-family: var(--font2);
+  color: var(--principal-oscuro);
+  width: fit-content;
+  padding-top: 3.2rem; 
+  margin: 0.5rem auto;
+  position: relative;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.titulo_principal{
+  color: var(--principal);
+  margin-bottom: 15px;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.titulo_parrafo{
+  font-family: var(--font5);
+  font-size: 1.8rem;
+}
+
+
+
+.fiesta_contenedor{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+}
+
+
+
+
+.fiesta_col{
+  background-color: var(--secundario);
+  padding: 30px 2px;
+  margin: 25px 25px ;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 0.2rem 0.5rem rgba(108, 74, 182, 1);
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+  
+  .contenedor_titulo{
+    text-align: center;
+    margin: 0.5rem 3rem;
+  }
+  .fiesta_col{
+    width: 70%;
+    
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .fiesta_contenedor{
+   display: inline;
+  }
+
+  .fiesta_col{
+    width: 50%;
+    margin:30px auto; 
+  }
+}
+
+@media screen and (max-width: 600px){
+  .fiesta_col{
+    width: 65%;
+    margin:30px auto; 
+  }
+}

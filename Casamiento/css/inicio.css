@@ -1,0 +1,123 @@
+.inicio {
+  background: linear-gradient(
+      to top,
+      rgba(20, 20, 28, 0.4),
+      rgba(20, 20, 28, 1)
+    ),
+    url(../img/descarga.jpeg);
+  background-attachment:fixed;
+  background-size: cover;
+  color:var(--secundario);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+ .banner {
+  margin: auto;
+  text-align: center;
+}
+.banner_fecha_contenedor{
+  align-items: center;
+}
+
+.banner_fecha {
+  font-family:var(--font4);
+  font-size: 1.7rem;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.banner_fecha::after,.banner_fecha::before{
+content: "";
+position: absolute;
+width: 130px;
+height:0.4px;
+background-color: #ffff;
+top: 1.4rem;
+}
+
+.banner_fecha::before{
+  left: -140px;
+}
+
+.banner_fecha::after{
+  right: -140px;
+}
+
+.banner_nombres {
+  font-family:var(--font1);
+  font-size: 7rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.banner_linea{
+  height: 1px;
+  background-color:#fff;
+  margin-bottom: 10px;
+  width: 65%;
+  display: inline-flex;
+  
+}
+
+.banner_frase{
+  margin: 25px 25px;
+  font-family: var(--font4);
+  font-size: 2.5rem;
+}
+
+.banner_comillas{
+  margin: 5px 10px;
+  font-size: 3rem;
+  font-weight: bold;
+} 
+
+
+
+
+
+
+
+
+
+/* 
+.banner__img img {
+  margin-top: 40px;
+  border: 8px solid var(--naranja-color);
+  width: 80%;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.banner h1 {
+  margin-top: 25px;
+  font-size: 2rem;
+}
+
+.banner h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.banner__redes a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 5px;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+.banner__redes a:hover {
+  color: var(--naranja-color);
+  border-color: var(--naranja-color);
+} */

@@ -1,0 +1,66 @@
+
+.tiempo {
+  display: flex;
+  padding: 20px 30px;
+  height: 350px;
+  /* background-color: #FAF7F3; */
+  background-color: var(--secundario);
+}
+
+.tiempo_contenedor{
+  
+  text-align: center;
+}
+
+
+.tiempo_titulo{
+  font-family:var(--font2) ;
+  color: var(--principal);
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+
+.contador{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 8px;
+  padding: 10px 0px;
+}
+
+.contador_numeros{
+  color: var(--principal-oscuro);
+  font-size: 3.1rem;
+  font-weight: bold;
+  font-family: var(--font3);
+}
+
+.izquierda{
+  border-right: 1px solid var(--principal-oscuro);
+}
+
+.contador_letras{
+  color:var(--principal) ;
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
+
+
+.contador_elemento{
+  padding: 0px 25px;
+}
+
+.banner_texto{
+  font-size: 1.9rem;
+  padding: 50px;
+}
+
+
+/* 
+@media screen and (max-width: 700px) {
+ .contador_elemento{
+  display: block;
+ }
+}  */
+
