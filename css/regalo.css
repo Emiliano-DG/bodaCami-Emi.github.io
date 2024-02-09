@@ -32,3 +32,9 @@
     margin:30px auto; 
   }
 }
+
+@media screen and (max-width: 500px) {
+  .titulo_regalo{
+    font-size: 2.7rem;
+  }
+}

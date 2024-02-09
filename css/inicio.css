@@ -14,7 +14,7 @@
 }
 
 
- .banner {
+.banner {
   margin: auto;
   text-align: center;
 }
@@ -81,16 +81,18 @@ top: 1.4rem;
 
 
 
-@media screen and (max-width: 534px){
+@media screen and (max-width: 500px){
   .banner_nombres {
+    font-size: 5.2rem;
     flex-direction: column;
   }
   .banner_frase{
+    font-size: 1.5rem;
     display: table-cell;
   }
   .banner_fecha{
-    font-size: 1.9rem;
-    margin-bottom:11px;
+    font-size: 1.5rem;
+    margin-bottom:10px;
   }
 }
 

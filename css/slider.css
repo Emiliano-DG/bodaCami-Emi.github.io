@@ -6,7 +6,6 @@ text-align: right;
 background: var(--principal);
 /* background:linear-gradient(to right, #859398,#6f5780); */
 padding: 60px;
-border-radius: 5px;
 }
 
 .slider_texto{
@@ -74,5 +73,13 @@ border-radius: 5px;
 @media screen and (max-width: 534px){
   .slider{
    display: grid;
+   justify-content: space-around;
   }
+}
+
+@media screen and (max-width: 446px){
+  .slider{
+    display: grid;
+    justify-content: center;
+   }
 }
