@@ -83,7 +83,8 @@ top: 1.4rem;
 
 @media screen and (max-width: 500px){
   .banner_nombres {
-    font-size: 5.2rem;
+    margin: 20px;
+    font-size: 5.4rem;
     flex-direction: column;
   }
   .banner_frase{
