@@ -76,17 +76,18 @@
     width: 50%;
     margin:30px auto; 
   }
-} 
+}  
 
 @media screen and (max-width: 600px){
   .fiesta_col{
     width: 65%;
     margin:30px auto; 
   }
-}
+} 
 
-@media screen and (max-width: 446px){
+@media screen and (max-width: 500px){
   .button{
-    padding: 7px 11px;
+    margin-top: 15px;
+   font-size: 1.1rem;
   }
 }

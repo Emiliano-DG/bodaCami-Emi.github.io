@@ -17,6 +17,7 @@
 .banner {
   margin: auto;
   text-align: center;
+  align-items: center;
 }
 .banner_fecha_contenedor{
   align-items: center;
@@ -55,6 +56,7 @@ top: 1.4rem;
   font-weight: lighter;
   text-align: center;
   margin-bottom: 10px;
+  margin-left: 16%;
 }
 
 
@@ -79,22 +81,38 @@ top: 1.4rem;
   font-weight: bold;
 } 
 
+@media screen and (max-width:800px){
+  .banner_nombres{
+    display: block;
+  }
 
+  .banner_frase{
+    font-weight: lighter;
+    margin-top: 20px;
+    font-size: 1.9rem;
+  }
+}
 
 @media screen and (max-width: 500px){
+
+  
   .banner_nombres {
-    margin: 10px;
-    font-size: 5.6rem;
+    margin-top: 25px;
+    margin-bottom: 4px;
+    font-size: 7rem;
     flex-direction: column;
   }
   .banner_frase{
-    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.4rem;
     display: table-cell;
   }
   .banner_fecha{
-    font-size: 1.5rem;
-    margin-bottom:12px;
+    font-size: 1.6rem;
+    margin-bottom:20px;
   }
+
 }
 
 
