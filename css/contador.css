@@ -63,6 +63,10 @@
 
 @media screen and (max-width: 500px){
   .contador_numeros{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
+  }
+
+  .contador_elemento{
+    padding: 0px 22px;
   }
 }
